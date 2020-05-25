@@ -2,7 +2,7 @@ body {
     margin: 0;
     border: 0;
     font-family: 'Roboto Mono', monospace;
-  }
+}
 
 .header {
     display: flex;
@@ -12,6 +12,13 @@ body {
     padding: 0 12%;
     background-color: blanchedalmond;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
 }
 
 .header li {
@@ -39,11 +46,13 @@ body {
     background: url(images/flower.jpg) center center no-repeat;
     background-size: cover;
     color: black;
+    margin-top: 4.44rem;
   }
 
 .content {
     padding: 0 25% 4rem 25%;
     color: #4a4a4a;
+    margin-top: 1rem;
 }
 
 .content p {
