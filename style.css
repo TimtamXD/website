@@ -66,6 +66,44 @@ body {
     color: black;
 }
 
+.button {
+    background-color: blanchedalmond;
+    font-family: 'Roboto Mono', monospace;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.button:hover {
+    background-color: rgb(247, 203, 137);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.button1 {
+    border-radius: 12px;
+}
+
+.icon {
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
+}
+
+.quote {
+    display: block;
+    padding: 4.44rem 0;
+    margin-bottom: 3.33rem;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
 hr {
     display: block;
     height: 1px;
