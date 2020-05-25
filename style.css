@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    border: 0;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.44rem;
+    padding: 0 12%;
+    background-color: blanchedalmond;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+}
+
+.header li {
+    display: inline;
+    padding-right: 2.22rem;
+}
+
+.header li a {
+    text-decoration: none;
+    color: #4a4a4a;
+  }
+
+.header li a:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    background: url(images/flower.jpg) center center no-repeat;
+    background-size: cover;
+    color: black;
+  }
+
+.content {
+    padding: 0 25% 4rem 25%;
+    color: #4a4a4a;
+}
+
+.content p {
+    padding-bottom: 2.77rem;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+
+.bookimage {
+    margin: 1rem;
+    overflow: hidden;
+    float: left;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
