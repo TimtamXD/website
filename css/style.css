@@ -43,7 +43,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 10rem;
-    background: url(images/flower.jpg) center center no-repeat;
+    background: url(../images/flower.jpg) center center no-repeat;
     background-size: cover;
     color: black;
     margin-top: 4.44rem;
