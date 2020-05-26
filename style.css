@@ -96,6 +96,12 @@ body {
     border-radius: 12px;
 }
 
+.dp {
+    border-radius: 20%;
+    width: 40%;
+    height: auto;
+}
+
 .icon {
     border-radius: 50%;
     width: 20%;
